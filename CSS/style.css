@@ -100,3 +100,25 @@ body {
     height: 15rem;
 }
 /* Deal Ads */
+
+/* About Us */
+#aboutUsContainer {
+    padding-top: 3rem;
+    padding-left: 0;
+    padding-right: 0;
+    background-color: rgba(0, 80, 32, 1);
+}
+
+#aboutUsTitleCol {
+    display: flex;
+    justify-content: center;
+}
+
+#aboutUsTitleText {
+    color: white;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 0.5rem solid rgba(178, 61, 56, 1);
+}
+/* About Us */
