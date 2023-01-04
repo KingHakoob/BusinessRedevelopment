@@ -4,6 +4,11 @@ body {
     margin: 0%;
 }
 
+/* a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; } */
+
 /* Navbar */
 .navbar {
     background-color: rgba(0, 80, 32, 1);
@@ -59,49 +64,107 @@ body {
     padding-bottom: 3rem;
 }
 
-#specialtyPizzaCol {
-    display: flex;
-    justify-content: center;
-    padding-left: 0;
-    padding-right: 0;
-    padding-bottom: 1.2rem;
+.dealsContainer {
+    padding-bottom: 1.25rem;
 }
 
-#specialtyPizza {
-    object-fit: cover;
-    width: 70rem;
-    height: 15rem;
+#specialtyPizzaCol {
+    background-image: url("../Assets/eddiesPizza.webp");
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    width: 85%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
+#pizzaTitleText {
+    color: black;
+    font-size: 3rem;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 0.12rem;
+    -webkit-text-stroke-color: black;
+    padding-bottom: 8.5rem;
+}
+
+.dealButton {
+    padding-bottom: 0.5rem;
+}
+
+.dealButton:link { text-decoration: none; }
+.dealButton:visited { text-decoration: none; }
+.dealButton:hover { text-decoration: none; }
+.dealButton:active { text-decoration: none; }
+
+#pizzaButtonText {
+    display: flex;
+    justify-content: end;
+    color: black;
+    font-size: 2rem;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 0.09rem;
+    -webkit-text-stroke-color: black;
+    background-color: rgba(178, 61, 56, 1);
+    padding-right: 2.5rem;
+    margin-left: 65%;
+    margin-right: 1%;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    border-radius: 5px;
 }
 
 #comboDealsCol {
+    background-image: url("../Assets/eddiesPizzadeal.jpg");
+    margin-left: 7.5%;
+    width: 42%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#mealDealTitleText {
+    color: black;
+    font-size: 2.8rem;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 0.12rem;
+    -webkit-text-stroke-color: black;
+    padding-bottom: 7rem;
+}
+
+#mealDealButtonText {
     display: flex;
-    justify-content: flex-end;
-    padding-left: 0;
-    padding-right: 0.6rem;
+    justify-content: end;
+    color: black;
+    font-size: 2rem;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 0.09rem;
+    -webkit-text-stroke-color: black;
+    background-color: rgba(178, 61, 56, 1);
+    padding-right: 2.5rem;
+    margin-left: 35%;
+    margin-right: 1%;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    border-radius: 5px;
 }
 
-#comboDeals {
-    object-fit: cover;
-    width: 34.4rem;
-    height: 15rem;
-}
-
-#otherDealsCol {
-    display: flex;
-    justify-content: flex-start;
-    padding-left: 0.6rem;
-    padding-right: 0;
-}
-
-#otherDeals {
-    object-fit: cover;
-    width: 34.4rem;
-    height: 15rem;
+#otherDealCol {
+    background-image: url("../Assets/eddies.png");
+    margin-left: 1%;
+    width: 42%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 /* Deal Ads */
 
 /* About Us */
+#aboutUs {
+    padding-bottom: 3rem;
+}
+
 #aboutUsContainer {
     padding-top: 3rem;
     padding-left: 0;
@@ -119,6 +182,34 @@ body {
     padding-left: 2rem;
     padding-right: 2rem;
     padding-bottom: 1rem;
-    border-bottom: 0.5rem solid rgba(178, 61, 56, 1);
+    border-bottom: 0.6rem solid rgba(178, 61, 56, 1);
+}
+
+#aboutUsText {
+    color: white;
+    font-size: 2rem;
+    line-height: 4rem;
 }
 /* About Us */
+
+/* Call Us For */
+#callUsHeader {
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+.callUsCard {
+    background-color: rgba(0, 80, 32, 1);
+    border: solid black 0.4rem;
+    width: 60%;
+}
+
+.callUsCardTitle {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    margin-left: 3%;
+    margin-right: 3%;
+    border-bottom: 0.6rem solid rgba(178, 61, 56, 1);
+}
+/* Call Us For */
