@@ -4,6 +4,12 @@
 } */
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */
+
+body {
+
+  background-color: rgba(242, 216, 142, 1);
+
+}
 .column {
     float: left;
     width: 25%;
@@ -20,7 +26,7 @@
   .newPosition {
 
 
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
 
    
@@ -101,3 +107,7 @@
   margin-right: 35%;
 }
 
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
