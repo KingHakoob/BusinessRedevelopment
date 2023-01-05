@@ -1,7 +1,18 @@
+/* @font-face {
+    src: url("../Fonts/Inter-VariableFont_slnt\,wght.ttf");
+    font-family: 'Inter', sans-serif;
+} */
+
 body {
     background-color: rgba(242, 216, 142, 1);
-    padding: 0%;
-    margin: 0%;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* a:link { text-decoration: none; }
@@ -17,7 +28,7 @@ a:active { text-decoration: none; } */
 }
 
 .headerLogo {
-    width: 25rem;
+    width: 30%;
     position: absolute;
     left: 2rem;
     top: -0.75rem;
@@ -30,7 +41,6 @@ a:active { text-decoration: none; } */
     justify-content: end;
 }
 
-/* Change on hover color and color when clicked */
 .nav-link {
     color: white;
     font-size: 1.5rem;
@@ -81,8 +91,9 @@ a:active { text-decoration: none; } */
 #pizzaTitleText {
     color: black;
     font-size: 3rem;
+    font-weight: bold;
     -webkit-text-fill-color: white;
-    -webkit-text-stroke-width: 0.12rem;
+    -webkit-text-stroke-width: 0.15rem;
     -webkit-text-stroke-color: black;
     padding-bottom: 8.5rem;
 }
@@ -100,7 +111,8 @@ a:active { text-decoration: none; } */
     display: flex;
     justify-content: end;
     color: black;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
     -webkit-text-fill-color: white;
     -webkit-text-stroke-width: 0.09rem;
     -webkit-text-stroke-color: black;
@@ -125,9 +137,10 @@ a:active { text-decoration: none; } */
 
 #mealDealTitleText {
     color: black;
-    font-size: 2.8rem;
+    font-size: 2.5rem;
+    font-weight: bold;
     -webkit-text-fill-color: white;
-    -webkit-text-stroke-width: 0.12rem;
+    -webkit-text-stroke-width: 0.15rem;
     -webkit-text-stroke-color: black;
     padding-bottom: 7rem;
 }
@@ -136,7 +149,8 @@ a:active { text-decoration: none; } */
     display: flex;
     justify-content: end;
     color: black;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
     -webkit-text-fill-color: white;
     -webkit-text-stroke-width: 0.09rem;
     -webkit-text-stroke-color: black;
@@ -162,7 +176,7 @@ a:active { text-decoration: none; } */
 
 /* About Us */
 #aboutUs {
-    padding-bottom: 3rem;
+    padding-bottom: 1.5rem;
 }
 
 #aboutUsContainer {
@@ -185,16 +199,34 @@ a:active { text-decoration: none; } */
     border-bottom: 0.6rem solid rgba(178, 61, 56, 1);
 }
 
+#aboutUsImageCol {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+#aboutUsImage {
+    width: 65%;
+    height: 70%;
+    object-fit: cover;
+}
+
 #aboutUsText {
     color: white;
-    font-size: 2rem;
-    line-height: 4rem;
+    font-size: 1.7rem;
+    line-height: 3.35rem;
+    margin-right: 5%;
+    padding-top: 2rem;
 }
 /* About Us */
 
 /* Call Us For */
 #callUsHeader {
     text-align: center;
+    padding-bottom: 3rem;
+}
+
+#callUsFor {
     padding-bottom: 3rem;
 }
 
@@ -212,4 +244,90 @@ a:active { text-decoration: none; } */
     margin-right: 3%;
     border-bottom: 0.6rem solid rgba(178, 61, 56, 1);
 }
+
+.callUsCardText {
+    color: white;
+    line-height: 2rem;
+    padding-top: 2rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#callUsCardLeftCol {
+    display: flex;
+    justify-content: end;
+}
+
+#callUsCardCenterCol {
+    display: flex;
+    justify-content: center;
+}
+
+#callUsCardRightCol {
+    display: flex;
+    justify-content: start;
+}
 /* Call Us For */
+
+/* Footer */
+#footerTopPadding {
+    background-color: rgba(178, 61, 56, 1);
+    padding-top: 2rem;
+}
+
+#footer {
+    background-color: rgba(0, 80, 32, 1);
+    padding-bottom: 3rem;
+}
+
+.footerCol {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.footerTitles {
+    background-color: rgba(178, 61, 56, 1);
+    color: white;
+    font-size: 1.7rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.footerCont {
+    text-align: center;
+}
+
+.footerText {
+    padding-top: 0.8rem;
+    color: white;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.footerListText {
+    margin-left: 37%;
+    text-align: start;
+    padding-top: 0.8rem;
+    color: white;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.footerLink:link { text-decoration: none; }
+.footerLink:visited { text-decoration: none; }
+.footerLink:hover { text-decoration: none; }
+.footerLink:active { text-decoration: none; }
+
+#footerLogoCol {
+    display: flex;
+    justify-content: center;
+}
+
+#footerLogo {
+    width: 75%;
+    height: 75%;
+}
+/* Footer */

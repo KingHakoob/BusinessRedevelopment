@@ -8,6 +8,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -23,9 +26,9 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link" aria-current="page" href="#">Home</a>
-                    <a class="nav-link" aria-current="page" href="#">Menu</a>
-                    <a class="nav-link" aria-current="page" href="#">Contact</a>
+                    <a class="nav-link" aria-current="page" href="/index.html">Home</a>
+                    <a class="nav-link" aria-current="page" href="./Pages/menu.html">Menu</a>
+                    <a class="nav-link" aria-current="page" href="./Pages/contact.html">Contact</a>
                 </div>
             </div>
         </div>
@@ -34,7 +37,7 @@
 
     <!-- Start Order Button -->
     <div id="orderAndMenuDiv">
-        <a id="orderAndMenuButton" href="">
+        <a id="orderAndMenuButton" href="https://eddiespizza.adorapos.net/?id=89XSW">
             <h1>Start Your Order</h1>
         </a>
     </div>
@@ -47,7 +50,7 @@
                 <div id="specialtyPizzaCol" class="col-12">
                     <!-- <img id="specialtyPizza" src="./Assets/eddiesPizza.webp" alt="Specialty Pizzas"> -->
                     <h1 id="pizzaTitleText">Specialty Pizzas</h1>
-                    <a class="dealButton" href="">
+                    <a class="dealButton" href="https://eddiespizza.adorapos.net/?id=89XSW">
                         <h1 id="pizzaButtonText">View Specialty Pizzas</h1>
                     </a>
                 </div>
@@ -58,14 +61,14 @@
                 <div id="comboDealsCol" class="col-6">
                     <!-- <img id="comboDeals" src="./Assets/eddiesPizzadeal.jpg" alt="Combo Deals"> -->
                     <h1 id="mealDealTitleText">Meal Deals</h1>
-                    <a class="dealButton" href="">
+                    <a class="dealButton" href="https://eddiespizza.adorapos.net/?id=89XSW">
                         <h1 id="mealDealButtonText">View Meal Deals</h1>
                     </a>
                 </div>
                 <div id="otherDealCol" class="col-6">
                     <!-- <img id="otherDeals" src="./Assets/eddies.png" alt="Other Deals"> -->
                     <h1 id="mealDealTitleText">Something For Everyone</h1>
-                    <a class="dealButton" href="">
+                    <a class="dealButton" href="https://eddiespizza.adorapos.net/?id=89XSW">
                         <h1 id="mealDealButtonText">View Other Options</h1>
                     </a>
                 </div>
@@ -76,7 +79,7 @@
 
     <!-- Full Menu Button -->
     <div id="orderAndMenuDiv">
-        <a id="orderAndMenuButton" href="">
+        <a id="orderAndMenuButton" href="/Pages/menu.html">
             <h1>View Full Menu</h1>
         </a>
     </div>
@@ -91,8 +94,8 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-6">
-                    <img src="./Assets/EddiesAboutUs.jpg" alt="Eddies Location">
+                <div id="aboutUsImageCol" class="col-6">
+                    <img id="aboutUsImage" src="./Assets/EddiesAboutUs.jpg" alt="Eddies Location">
                 </div>
                 <div class="col-6">
                     <h1 id="aboutUsText">We've been serving the Stockton area for over 35 years with delicious pizza,
@@ -107,27 +110,29 @@
     <!-- Call Us For -->
     <h1 id="callUsHeader">Call Us For:</h1>
 
-    <div class="row">
-        <div class="col-4">
+    <div id="callUsFor" class="row">
+        <div id="callUsCardLeftCol" class="col-4">
             <div class="callUsCard">
                 <h1 class="callUsCardTitle">Office Parties</h1>
-                <p>Pizza is the perfect meal and hassle-free. Order a variety of pizzas and please everyone from hearty
+                <p class="callUsCardText">Pizza is the perfect meal and hassle-free. Order a variety of pizzas and
+                    please everyone from hearty
                     eaters to vegetarians. Pizza is easy to eat, fast, convenient, popular, inexpensive and conveniently
                     delivered to your workplace.</p>
             </div>
         </div>
-        <div class="col-4">
+        <div id="callUsCardCenterCol" class="col-4">
             <div class="callUsCard">
                 <h1 class="callUsCardTitle">Company Meetings</h1>
-                <p>For over 35 years, Eddies Pizza has prepared the most delicious pizza in town. Eddies Pizza has
+                <p class="callUsCardText">For over 35 years, Eddies Pizza has prepared the most delicious pizza in town.
+                    Eddies Pizza has
                     provided delicious, hot meals for businesses or organizations for their meetings or special events.
                     We turn a business meal into a perk for all to enjoy.</p>
             </div>
         </div>
-        <div class="col-4">
+        <div id="callUsCardRightCol" class="col-4">
             <div class="callUsCard">
                 <h1 class="callUsCardTitle">Business Luncheons</h1>
-                <ul>
+                <ul class="callUsCardText">
                     <li>Wide assortment of pizzas</li>
                     <li>24″ Big Ed Pizza</li>
                     <li>Lasagna or Spaghetti with meat sauce</li>
@@ -140,6 +145,46 @@
         </div>
     </div>
     <!-- Call Us For -->
+
+    <!-- Footer -->
+    <div id="footerTopPadding">
+        <div id="footer">
+            <div class="row">
+                <div class="footerCol col-4">
+                    <div class="footerCont container">
+                    <h1 class="footerTitles">Store Hours</h1>
+                    <p class="footerText">Sun-Thurs <br>
+                        10:30 a.m. to 9:30 p.m. <br>
+                        Fri - Sat <br>
+                        10:30 a.m. to 10:00 p.m.</p>
+                </div>
+                </div>
+                <div id="footerLogoCol" class="col-4">
+                    <img id="footerLogo" src="./Assets/EddiesLogo.png" alt="EddiesLogo">
+                </div>
+                <div class="footerCol col-4">
+                    <div class="footerCont container">
+                    <h1 class="footerTitles">Links</h1>
+                    <ul class="footerListText">
+                        <li>
+                            <a class="footerLink" href="/Pages/menu.html">Menu</a>
+                        </li>
+                        <li>
+                            <a class="footerLink" href="/Pages/menu.html">Delivery</a>
+                        </li>
+                        <li>
+                            <a class="footerLink" href="/Pages/menu.html">Parties</a>
+                        </li>
+                        <li>
+                            <a class="footerLink" href="/Pages/menu.html">Business</a>
+                        </li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
