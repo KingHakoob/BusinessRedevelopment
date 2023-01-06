@@ -229,7 +229,6 @@ border-radius: 29px;
 
 .footerLink {
   color: white;
-
 }
 /* @font-face {
     src: url("../Fonts/Inter-VariableFont_slnt\,wght.ttf");
@@ -632,5 +631,44 @@ a:active { text-decoration: none; } */
         padding-top: 0.8rem;
         padding-bottom: 0.8rem;
     }
+
+    .contactsTxt {
+
+        position: relative;
+        left: 100px;
+      }
+
+
+    .headerMe 
+    {
+      position: relative;
+  text-align: center;
+    display: flex;
+    justify-content: center;
+    }
+
+   #newRspn {
+
+    float: left;
+    width: 25%;
+    padding: 5px;
+
+
+   }
     /* Deal Ads */
 }
+
+@media screen and (max-width: 390px) {
+
+#newRspn
+
+{
+    float: left;
+    width: 25%;
+    padding: 5px;
+
+}
+
+}
+
+
