@@ -1,3 +1,132 @@
+/* Jonh's CSS */
+.column {
+    float: left;
+    width: 25%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .rowJohn::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .newPosition {
+
+
+    justify-content: space-around;
+    align-items: center;
+
+   
+   padding-left: 15%;
+
+    
+  }
+
+  /* Container holding the image and the text */
+.containerJohn {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  
+  
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Rectangle 4 */
+  .newOpacity
+  {
+  
+  position: absolute;
+  width: 190px;
+  height: 41px;
+  left: 340px;
+  top: 510px;
+  
+  background: rgba(46, 99, 67, 0.7);
+  border-radius: 29px;
+  font-size: 7pt;
+  
+  }
+  
+  .newOpacity2
+  {
+  
+  position: absolute;
+  width: 190px;
+  height: 41px;
+  left: 830px;
+  top: 510px;
+  font-size: 7pt;
+  
+  
+  
+  background: rgba(46, 99, 67, 0.7);
+  border-radius: 29px;
+  
+  }
+  
+  .newOpacity3
+  {
+  
+    position: absolute;
+    width: 190px;
+    height: 41px;
+    left: 342px;
+    top: 800px;
+    font-size: 7pt;
+    
+    
+    
+    background: rgba(46, 99, 67, 0.7);
+    border-radius: 29px;
+  }
+  
+  .newOpacity4
+  {
+  
+    position: absolute;
+    width: 190px;
+    height: 41px;
+    left: 830px;
+    top: 800px;
+    font-size: 7pt;
+    
+    
+    
+    background: rgba(46, 99, 67, 0.7);
+    border-radius: 29px;
+  
+  }
+
+  .contactsTxt {
+
+    position: relative;
+    left: 100px;
+  }
+  .headerMe {
+    position: relative;
+    text-align: center;
+  }
+
+/* Jonh's CSS */
+
+
+
+
+/* Jacob's CSS */
 /* @font-face {
     src: url("../Fonts/Inter-VariableFont_slnt\,wght.ttf");
     font-family: 'Inter', sans-serif;
@@ -506,6 +635,22 @@ a:active { text-decoration: none; } */
 }
 /* <=MD */
 /* Footer */
+/* Jacob's CSS */
+
+/* John's Media */
+@media screen and (max-width: 390px) {
+
+    #newRspn
+    
+    {
+        float: left;
+        width: 25%;
+        padding: 5px;
+    
+    }
+    
+    }
+/* John's Media */
 
 @media screen and (max-width: 1025px) {
     /* Navbar */
