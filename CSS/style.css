@@ -462,6 +462,7 @@ a:active { text-decoration: none; } */
 }
 
 @media screen and (max-width: 426px) {
+    /* Footer */
     .footerMdTitles {
         font-size: 2rem;
     }
@@ -477,4 +478,5 @@ a:active { text-decoration: none; } */
     #footerMdCopyRightTxt {
         font-size: 1.1rem;
     }
+    /* Footer */
 }
