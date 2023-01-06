@@ -474,72 +474,7 @@ a:active { text-decoration: none; } */
 }
 /* Call Us For */
 
-/* Footer */
-#footerTopPadding {
-    background-color: rgba(178, 61, 56, 1);
-    padding-top: 2rem;
-}
 
-#footer {
-    background-color: rgba(0, 80, 32, 1);
-    padding-bottom: 3rem;
-}
-
-.footerCol {
-    display: flex;
-    justify-content: center;
-    padding-top: 2rem;
-}
-
-.footerTitles {
-    background-color: rgba(178, 61, 56, 1);
-    color: white;
-    font-size: 1.7rem;
-    padding-top: 0.8rem;
-    padding-bottom: 0.8rem;
-    margin-left: 25%;
-    margin-right: 25%;
-}
-
-.footerCont {
-    text-align: center;
-}
-
-.footerText {
-    padding-top: 0.8rem;
-    color: white;
-    font-size: 1.5rem;
-    line-height: 2rem;
-}
-
-.footerListText {
-    margin-left: 37%;
-    text-align: start;
-    padding-top: 0.8rem;
-    color: white;
-    font-size: 1.5rem;
-    line-height: 2rem;
-}
-
-.footerLink {
-    color: white;
-}
-
-.footerLink:link { text-decoration: none; }
-.footerLink:visited { text-decoration: none; }
-.footerLink:hover { text-decoration: none; }
-.footerLink:active { text-decoration: none; }
-
-#footerLogoCol {
-  display: flex;
-  justify-content: center;
-}
-
-#footerLogo {
-  width: 75%;
-  height: 75%;
-}
-/* Footer end*/ 
 
 .contactsTxt {
 
