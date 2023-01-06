@@ -1,3 +1,4 @@
+
 /* .navbar {
 
     background-color: green;
@@ -228,6 +229,328 @@ border-radius: 29px;
 
 .footerLink {
   color: white;
+/* @font-face {
+    src: url("../Fonts/Inter-VariableFont_slnt\,wght.ttf");
+    font-family: 'Inter', sans-serif;
+} */
+
+body {
+    background-color: rgba(242, 216, 142, 1);
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; } */
+
+/* Navbar */
+.navbar {
+    background-color: rgba(0, 80, 32, 1);
+    padding-bottom: 2rem;
+    margin-bottom: 10rem;
+}
+
+.headerLogo {
+    width: 30%;
+    position: absolute;
+    left: 2rem;
+    top: -0.75rem;
+}
+
+#navbarNavAltMarkup {
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    justify-content: end;
+}
+
+.nav-link {
+    color: white;
+    font-size: 1.5rem;
+    margin-right: 4.5rem;
+}
+
+.nav-link:hover {
+    color: white;
+}
+/* Navbar */
+
+/* Start Order/View Full Menu Buttons */
+.orderAndMenuDiv {
+    padding-bottom: 3rem;
+}
+
+.orderAndMenuButton {
+    color: white;
+    text-decoration: none;
+    background-color: rgba(0, 80, 32, 1);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    padding-top: 0.4rem;
+    padding-top: 0.4rem;
+    margin-left: 34%;
+    margin-right: 34%;
+}
+/* Start Order/ View Full Menu Buttons */
+
+/* Deal Ads */
+#dealAds {
+    padding-bottom: 3rem;
+}
+
+.dealsContainer {
+    padding-bottom: 1.25rem;
+}
+
+#specialtyPizzaCol {
+    background-image: url("../Assets/eddiesPizza.webp");
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    width: 85%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#pizzaTitleText {
+    color: black;
+    font-size: 3rem;
+    font-weight: bold;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 0.15rem;
+    -webkit-text-stroke-color: black;
+    padding-bottom: 8.5rem;
+}
+
+.dealButton {
+    padding-bottom: 0.5rem;
+}
+
+.dealButton:link { text-decoration: none; }
+.dealButton:visited { text-decoration: none; }
+.dealButton:hover { text-decoration: none; }
+.dealButton:active { text-decoration: none; }
+
+#pizzaButtonText {
+    display: flex;
+    justify-content: end;
+    color: black;
+    font-size: 1.4rem;
+    font-weight: bold;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 0.09rem;
+    -webkit-text-stroke-color: black;
+    background-color: rgba(178, 61, 56, 1);
+    padding-right: 2.5rem;
+    margin-left: 71%;
+    margin-right: 1%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 5px;
+}
+
+#comboDealsCol {
+    background-image: url("../Assets/eddiesPizzadeal.jpg");
+    margin-left: 7.5%;
+    width: 42%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#mealDealTitleText {
+    color: black;
+    font-size: 2.5rem;
+    font-weight: bold;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 0.15rem;
+    -webkit-text-stroke-color: black;
+    padding-bottom: 7rem;
+}
+
+#mealDealButtonText {
+    display: flex;
+    justify-content: end;
+    color: black;
+    font-size: 1.4rem;
+    font-weight: bold;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 0.09rem;
+    -webkit-text-stroke-color: black;
+    background-color: rgba(178, 61, 56, 1);
+    padding-right: 2.5rem;
+    margin-left: 45%;
+    margin-right: 1%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 5px;
+}
+
+#otherDealCol {
+    background-image: url("../Assets/eddies.png");
+    margin-left: 1%;
+    width: 42%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* Deal Ads */
+
+/* About Us */
+#aboutUs {
+    padding-bottom: 1.5rem;
+}
+
+#aboutUsContainer {
+    padding-top: 3rem;
+    padding-left: 0;
+    padding-right: 0;
+    background-color: rgba(0, 80, 32, 1);
+}
+
+#aboutUsTitleCol {
+    display: flex;
+    justify-content: center;
+}
+
+#aboutUsTitleText {
+    color: white;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 0.6rem solid rgba(178, 61, 56, 1);
+}
+
+#aboutUsImageCol {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+#aboutUsImage {
+    width: 65%;
+    height: 70%;
+    object-fit: cover;
+}
+
+#aboutUsText {
+    color: white;
+    font-size: 1.7rem;
+    line-height: 3.35rem;
+    margin-right: 5%;
+    padding-top: 2rem;
+}
+/* About Us */
+
+/* Call Us For */
+#callUsHeader {
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+#callUsFor {
+    padding-bottom: 3rem;
+}
+
+.callUsCard {
+    background-color: rgba(0, 80, 32, 1);
+    border: solid black 0.42rem;
+    width: 60%;
+}
+
+.callUsCardTitle {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    margin-left: 3%;
+    margin-right: 3%;
+    border-bottom: 0.6rem solid rgba(178, 61, 56, 1);
+}
+
+.callUsCardText {
+    color: white;
+    line-height: 2rem;
+    padding-top: 2rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#callUsCardLeftCol {
+    display: flex;
+    justify-content: end;
+}
+
+#callUsCardCenterCol {
+    display: flex;
+    justify-content: center;
+}
+
+#callUsCardRightCol {
+    display: flex;
+    justify-content: start;
+}
+/* Call Us For */
+
+/* Footer */
+#footerTopPadding {
+    background-color: rgba(178, 61, 56, 1);
+    padding-top: 2rem;
+}
+
+#footer {
+    background-color: rgba(0, 80, 32, 1);
+    padding-bottom: 3rem;
+}
+
+.footerCol {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.footerTitles {
+    background-color: rgba(178, 61, 56, 1);
+    color: white;
+    font-size: 1.7rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.footerCont {
+    text-align: center;
+}
+
+.footerText {
+    padding-top: 0.8rem;
+    color: white;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.footerListText {
+    margin-left: 37%;
+    text-align: start;
+    padding-top: 0.8rem;
+    color: white;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.footerLink {
+    color: white;
 }
 
 .footerLink:link { text-decoration: none; }
@@ -254,4 +577,58 @@ border-radius: 29px;
 .headerMe {
   position: relative;
   text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#footerLogo {
+    width: 75%;
+    height: 75%;
+}
+/* Footer */
+
+@media screen and (max-width: 1024px) {
+    /* Navbar */
+    .navbar {
+        padding-bottom: 0.2rem;
+    }
+    /* Navbar */
+}
+
+@media screen and (max-width: 768px) {
+    /* Navbar */
+    .navbar {
+        padding-bottom: 0rem;
+    }
+
+    .headerLogo {
+        top: 0rem;
+    }
+
+    .nav-link {
+        margin-right: 2.5rem;
+    }
+    /* Navbar */
+
+    /* Order and Menu Buttons */
+    .orderAndMenuText {
+        font-size: 1.5rem;
+    }
+    /* Order and Menu Buttons */
+
+    /* Deal Ads */
+    #pizzaTitleText {
+        font-size: 2.5rem;
+        -webkit-text-stroke-width: 0.12rem;
+        padding-bottom: 5rem;
+    }
+
+    #pizzaButtonText {
+        font-size: 1.4rem;
+        -webkit-text-stroke-width: 0.06rem;
+        margin-left: 50%;
+        padding-top: 0.8rem;
+        padding-bottom: 0.8rem;
+    }
+    /* Deal Ads */
 }
