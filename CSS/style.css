@@ -21,35 +21,72 @@ a:hover { text-decoration: none; }
 a:active { text-decoration: none; } */
 
 /* Navbar */
-.navbar {
+/* >=MD */
+.navbarLg {
     background-color: rgba(0, 80, 32, 1);
     padding-bottom: 2rem;
     margin-bottom: 10rem;
 }
 
-.headerLogo {
+.navLogoLg {
     width: 30%;
     position: absolute;
     left: 2rem;
     top: -0.75rem;
 }
 
-#navbarNavAltMarkup {
+.navbarNavAltMarkupLg {
     padding: 0%;
     margin: 0%;
     display: flex;
     justify-content: end;
 }
 
-.nav-link {
+.nav-linkLg {
     color: white;
     font-size: 1.5rem;
     margin-right: 4.5rem;
 }
 
-.nav-link:hover {
+.nav-linkLg:hover {
     color: white;
 }
+/* >=MD */
+/* <=SM */
+.navbarSm {
+    background-color: rgba(0, 80, 32, 1);
+    margin-bottom: 10rem;
+}
+
+#navbarToggleSm {
+    padding-bottom: 1rem;
+}
+
+.navLogoSm {
+    width: 45%;
+    position: absolute;
+    left: 2rem;
+    top: 0.5rem;
+}
+
+.navbarNavAltMarkupSm {
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    justify-content: end;
+}
+
+.nav-linkSm {
+    color: white;
+    font-size: 1.5rem;
+    padding-bottom: 0;
+    margin-right: 4.5rem;
+}
+
+.nav-linkSm:hover {
+    color: white;
+}
+/* <=SM */
 /* Navbar */
 
 /* Start Order/View Full Menu Buttons */
@@ -272,23 +309,24 @@ a:active { text-decoration: none; } */
 /* Call Us For */
 
 /* Footer */
-#footerTopPadding {
+/* >=LG */
+#footerLgTopPadding {
     background-color: rgba(178, 61, 56, 1);
     padding-top: 2rem;
 }
 
-#footer {
+#footerLg {
     background-color: rgba(0, 80, 32, 1);
     padding-bottom: 3rem;
 }
 
-.footerCol {
+.footerLgCol {
     display: flex;
     justify-content: center;
     padding-top: 2rem;
 }
 
-.footerTitles {
+.footerLgTitles {
     background-color: rgba(178, 61, 56, 1);
     color: white;
     font-size: 1.7rem;
@@ -298,18 +336,18 @@ a:active { text-decoration: none; } */
     margin-right: 25%;
 }
 
-.footerCont {
+.footerLgCont {
     text-align: center;
 }
 
-.footerText {
+.footerLgText {
     padding-top: 0.8rem;
     color: white;
     font-size: 1.5rem;
     line-height: 2rem;
 }
 
-.footerListText {
+.footerLgListText {
     margin-left: 37%;
     text-align: start;
     padding-top: 0.8rem;
@@ -318,14 +356,14 @@ a:active { text-decoration: none; } */
     line-height: 2rem;
 }
 
-.footerLink {
+.footerLgLink {
     color: white;
 }
 
-.footerLink:link { text-decoration: none; }
-.footerLink:visited { text-decoration: none; }
-.footerLink:hover { text-decoration: none; }
-.footerLink:active { text-decoration: none; }
+.footerLgLink:link { text-decoration: none; }
+.footerLgLink:visited { text-decoration: none; }
+.footerLgLink:hover { text-decoration: none; }
+.footerLgLink:active { text-decoration: none; }
 
 #footerLogoCol {
     display: flex;
@@ -336,9 +374,48 @@ a:active { text-decoration: none; } */
     width: 75%;
     height: 75%;
 }
+/* >=LG */
+/* <=MD */
+#footerMd {
+    background-color: rgba(0, 80, 32, 1);
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 6rem;
+}
+
+.footerMdTitles {
+    color: white;
+    font-size: 3rem;
+    padding-top: 1rem;
+    margin-bottom: 0;
+}
+
+#footerMdHours {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.footerMdLocations {
+    color: white;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    margin-bottom: 0;
+}
+
+#footerMdCopyRight {
+    background-color: rgba(178, 61, 56, 1);
+}
+
+#footerMdCopyRightTxt {
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+/* <=MD */
 /* Footer */
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1025px) {
     /* Navbar */
     .navbar {
         padding-bottom: 0.2rem;
@@ -346,7 +423,7 @@ a:active { text-decoration: none; } */
     /* Navbar */
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
     /* Navbar */
     .navbar {
         padding-bottom: 0rem;
@@ -382,4 +459,22 @@ a:active { text-decoration: none; } */
         padding-bottom: 0.8rem;
     }
     /* Deal Ads */
+}
+
+@media screen and (max-width: 426px) {
+    .footerMdTitles {
+        font-size: 2rem;
+    }
+    
+    #footerMdHours {
+        font-size: 1.1rem;
+    }
+    
+    .footerMdLocations {
+        font-size: 1.1rem;
+    }
+    
+    #footerMdCopyRightTxt {
+        font-size: 1.1rem;
+    }
 }
