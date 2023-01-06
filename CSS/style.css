@@ -224,35 +224,72 @@ a:hover { text-decoration: none; }
 a:active { text-decoration: none; } */
 
 /* Navbar */
-.navbar {
+/* >=MD */
+.navbarLg {
     background-color: rgba(0, 80, 32, 1);
     padding-bottom: 2rem;
     margin-bottom: 10rem;
 }
 
-.headerLogo {
+.navLogoLg {
     width: 30%;
     position: absolute;
     left: 2rem;
     top: -0.75rem;
 }
 
-#navbarNavAltMarkup {
+.navbarNavAltMarkupLg {
     padding: 0%;
     margin: 0%;
     display: flex;
     justify-content: end;
 }
 
-.nav-link {
+.nav-linkLg {
     color: white;
     font-size: 1.5rem;
     margin-right: 4.5rem;
 }
 
-.nav-link:hover {
+.nav-linkLg:hover {
     color: white;
 }
+/* >=MD */
+/* <=SM */
+.navbarSm {
+    background-color: rgba(0, 80, 32, 1);
+    margin-bottom: 10rem;
+}
+
+#navbarToggleSm {
+    padding-bottom: 1rem;
+}
+
+.navLogoSm {
+    width: 45%;
+    position: absolute;
+    left: 2rem;
+    top: 0.5rem;
+}
+
+.navbarNavAltMarkupSm {
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    justify-content: end;
+}
+
+.nav-linkSm {
+    color: white;
+    font-size: 1.5rem;
+    padding-bottom: 0;
+    margin-right: 4.5rem;
+}
+
+.nav-linkSm:hover {
+    color: white;
+}
+/* <=SM */
 /* Navbar */
 
 /* Start Order/View Full Menu Buttons */
@@ -262,6 +299,7 @@ a:active { text-decoration: none; } */
 
 .orderAndMenuButton {
     color: white;
+    font-size: 1rem;
     text-decoration: none;
     background-color: rgba(0, 80, 32, 1);
     border-radius: 5px;
@@ -330,7 +368,8 @@ a:active { text-decoration: none; } */
     border-radius: 5px;
 }
 
-#comboDealsCol {
+/* >=LG */
+#comboDealsColLg {
     background-image: url("../Assets/eddiesPizzadeal.jpg");
     margin-left: 7.5%;
     width: 42%;
@@ -340,7 +379,7 @@ a:active { text-decoration: none; } */
     background-repeat: no-repeat;
 }
 
-#mealDealTitleText {
+#mealDealTitleTextLg {
     color: black;
     font-size: 2.5rem;
     font-weight: bold;
@@ -350,7 +389,7 @@ a:active { text-decoration: none; } */
     padding-bottom: 7rem;
 }
 
-#mealDealButtonText {
+#mealDealButtonTextLg {
     display: flex;
     justify-content: end;
     color: black;
@@ -368,7 +407,7 @@ a:active { text-decoration: none; } */
     border-radius: 5px;
 }
 
-#otherDealCol {
+#otherDealColLg {
     background-image: url("../Assets/eddies.png");
     margin-left: 1%;
     width: 42%;
@@ -377,6 +416,56 @@ a:active { text-decoration: none; } */
     background-position: center;
     background-repeat: no-repeat;
 }
+/* >=LG */
+/* <=MD */
+#comboDealsColSm {
+    background-image: url("../Assets/eddiesPizzadeal.jpg");
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    width: 85%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#mealDealTitleTextSm {
+    color: black;
+    font-size: 2.5rem;
+    font-weight: bold;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 0.12rem;
+    -webkit-text-stroke-color: black;
+    padding-bottom: 5rem;
+}
+
+#mealDealButtonTextSm {
+    display: flex;
+    justify-content: end;
+    color: black;
+    font-size: 1.4rem;
+    font-weight: bold;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 0.06rem;
+    -webkit-text-stroke-color: black;
+    background-color: rgba(178, 61, 56, 1);
+    padding-right: 2.5rem;
+    margin-left: 50%;
+    margin-right: 1%;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    border-radius: 5px;
+}
+
+#otherDealColSm {
+    background-image: url("../Assets/eddies.png");
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    width: 85%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* <=MD */
 /* Deal Ads */
 
 /* About Us */
@@ -428,20 +517,22 @@ a:active { text-decoration: none; } */
 /* Call Us For */
 #callUsHeader {
     text-align: center;
+    padding-top: 0;
     padding-bottom: 3rem;
 }
 
-#callUsFor {
+/* >=LG */
+#callUsForLg {
     padding-bottom: 3rem;
 }
 
-.callUsCard {
+.callUsCardLg {
     background-color: rgba(0, 80, 32, 1);
     border: solid black 0.42rem;
     width: 60%;
 }
 
-.callUsCardTitle {
+.callUsCardTitleLg {
     color: white;
     font-size: 3rem;
     text-align: center;
@@ -450,7 +541,7 @@ a:active { text-decoration: none; } */
     border-bottom: 0.6rem solid rgba(178, 61, 56, 1);
 }
 
-.callUsCardText {
+.callUsCardTextLg {
     color: white;
     line-height: 2rem;
     padding-top: 2rem;
@@ -458,21 +549,60 @@ a:active { text-decoration: none; } */
     margin-right: 5%;
 }
 
-#callUsCardLeftCol {
+#callUsCardLeftColLg {
     display: flex;
     justify-content: end;
 }
 
-#callUsCardCenterCol {
+#callUsCardCenterColLg {
     display: flex;
     justify-content: center;
 }
 
-#callUsCardRightCol {
+#callUsCardRightColLg {
     display: flex;
     justify-content: start;
 }
+/* >=LG */
+
+/* <=MD */
+#callUsCardSm {
+    padding-bottom: 6rem;
+}
+
+#callUsCardColSm {
+    background-color: rgba(0, 80, 32, 1);
+    border: solid black 0.9rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+}
+
+.callUsCardTitleSm {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 3rem;
+    margin-left: 3%;
+    margin-right: 3%;
+    border-bottom: 0.6rem solid rgba(178, 61, 56, 1);
+}
+
+.callUsCardTextSm {
+    color: white;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    padding-top: 2rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.callUsCardListSm {
+    padding-bottom: 3rem;
+}
+/* <=MD */
 /* Call Us For */
+
 
 
 
@@ -484,6 +614,66 @@ a:active { text-decoration: none; } */
 .headerMe {
   position: relative;
   text-align: center;
+=======
+/* Footer */
+/* >=LG */
+#footerLgTopPadding {
+    background-color: rgba(178, 61, 56, 1);
+    padding-top: 2rem;
+}
+
+#footerLg {
+    background-color: rgba(0, 80, 32, 1);
+    padding-bottom: 3rem;
+}
+
+.footerLgCol {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.footerLgTitles {
+    background-color: rgba(178, 61, 56, 1);
+    color: white;
+    font-size: 1.7rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.footerLgCont {
+    text-align: center;
+}
+
+.footerLgText {
+    padding-top: 0.8rem;
+    color: white;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.footerLgListText {
+    margin-left: 37%;
+    text-align: start;
+    padding-top: 0.8rem;
+    color: white;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.footerLgLink {
+    color: white;
+}
+
+.footerLgLink:link { text-decoration: none; }
+.footerLgLink:visited { text-decoration: none; }
+.footerLgLink:hover { text-decoration: none; }
+.footerLgLink:active { text-decoration: none; }
+
+#footerLogoCol {
+
     display: flex;
     justify-content: center;
 }
@@ -492,17 +682,126 @@ a:active { text-decoration: none; } */
     width: 75%;
     height: 75%;
 }
+/* >=LG */
+/* <=MD */
+#footerMd {
+    background-color: rgba(0, 80, 32, 1);
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 6rem;
+}
+
+.footerMdTitles {
+    color: white;
+    font-size: 3rem;
+    padding-top: 1rem;
+    margin-bottom: 0;
+}
+
+#footerMdHours {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.footerMdLocations {
+    color: white;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    margin-bottom: 0;
+}
+
+#footerMdCopyRight {
+    background-color: rgba(178, 61, 56, 1);
+}
+
+#footerMdCopyRightTxt {
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+/* <=MD */
 /* Footer */
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1025px) {
     /* Navbar */
     .navbar {
         padding-bottom: 0.2rem;
     }
     /* Navbar */
+
+    /* Deal Ads */
+    #pizzaButtonText {
+        font-size: 1rem;
+        -webkit-text-stroke-width: 0.05rem;
+    }
+
+    #pizzaTitleText {
+        font-size: 2rem;
+        -webkit-text-stroke-width: 0.1rem;
+    }
+
+    #mealDealTitleTextLg {
+        font-size: 1.4rem;
+        -webkit-text-stroke-width: 0.07rem;
+    }
+
+    #mealDealButtonTextLg {
+        font-size: 1rem;
+        -webkit-text-stroke-width: 0.05rem;
+    }
+    /* Deal Ads */
+
+    /* About Us */
+    #aboutUsText {
+        font-size: 1.3rem;
+        line-height: 2.5rem;
+    }
+    /* About Us */
+
+    /* Call Us For */
+    /* >=LG */
+    .callUsCardLg {
+        width: 80%;
+    }
+    
+    .callUsCardTitleLg {
+        font-size: 2.8rem;
+    }
+    
+    .callUsCardTextLg {
+        font-size: 0.95rem;
+        line-height: 2rem;
+        padding-top: 2rem;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    /* >=LG */
+    /* Call Us For */
+
+    /* Footer */
+    /* >=LG */
+    .footerLgTitles {
+        font-size: 1.6rem;
+    }
+
+    .footerLgText {
+        font-size: 1.3rem;
+    }
+
+    .footerLgListText {
+        font-size: 1.3rem;
+    }
+
+    #footerLogo {
+        width: 100%;
+        height: 65%;
+    }
+    /* >=LG */
+    /* Footer */
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
     /* Navbar */
     .navbar {
         padding-bottom: 0rem;
@@ -562,7 +861,14 @@ a:active { text-decoration: none; } */
 
    }
     /* Deal Ads */
+
+    /* Call Us For */
+    #callUsHeader {
+        padding-top: 3rem;
+    }
+    /* Call Us For */
 }
+
 
 @media screen and (max-width: 390px) {
 
@@ -578,3 +884,65 @@ a:active { text-decoration: none; } */
 }
 
 
+=======
+@media screen and (max-width: 426px) {
+    /* Order and Deals */
+    .orderAndMenuButton {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    /* Order and Deals */
+
+    /* Deal Ads */
+   #pizzaTitleText {
+        font-size: 1.7rem;
+        -webkit-text-stroke-width: 0.08rem;
+    }
+
+    #pizzaButtonText {
+        font-size: 0.9rem;
+        -webkit-text-stroke-width: 0.05rem;
+        padding-right: 1.5rem;
+        margin-left: 40%;
+    }
+    
+    #mealDealTitleTextSm {
+        font-size: 1.7rem;
+        -webkit-text-stroke-width: 0.08rem;
+    }
+    
+    #mealDealButtonTextSm {
+        font-size: 0.9rem;
+        -webkit-text-stroke-width: 0.05rem;
+        margin-left: 40%;
+    }
+    /* Deal Ads */
+
+    /* Call Us For */
+    .callUsCardTitleSm {
+        font-size: 2rem;
+    }
+    
+    .callUsCardTextSm {
+        font-size: 1rem;
+    }
+    /* Call Us For */
+
+    /* Footer */
+    .footerMdTitles {
+        font-size: 2rem;
+    }
+    
+    #footerMdHours {
+        font-size: 1.1rem;
+    }
+    
+    .footerMdLocations {
+        font-size: 1.1rem;
+    }
+    
+    #footerMdCopyRightTxt {
+        font-size: 1.1rem;
+    }
+    /* Footer */
+}

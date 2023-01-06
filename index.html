@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
 
@@ -192,3 +193,309 @@
 </body>
 
 </html>
+=======
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <!-- >=MD -->
+    <div class="d-none d-md-block">
+        <nav class="navbarLg navbar navbar-expand-md">
+            <div class="navColor container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img class="navLogoLg" src="./Assets/EddiesLogo.png" alt="EddiesLogo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbarNavAltMarkupLg collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-linkLg nav-link" aria-current="page" href="/index.html">Home</a>
+                        <a class="nav-linkLg nav-link" aria-current="page" href="./Pages/menu.html">Menu</a>
+                        <a class="nav-linkLg nav-link" aria-current="page" href="./Pages/contact.html">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- >=MD -->
+    <!-- <=SM -->
+    <div class="d-md-none">
+        <nav class="navbarSm navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img class="navLogoSm" src="./Assets/EddiesLogo.png" alt="EddiesLogo">
+                </a>
+                <div id="navbarToggleSm">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+                <div class="navbarNavAltMarkupSm collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-linkSm nav-link" aria-current="page" href="/index.html">Home</a>
+                        <a class="nav-linkSm nav-link" aria-current="page" href="./Pages/menu.html">Menu</a>
+                        <a class="nav-linkSm nav-link" aria-current="page" href="./Pages/contact.html">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- <=SM -->
+    <!-- Navbar -->
+
+    <!-- Start Order Button -->
+    <div class="orderAndMenuDiv">
+        <a class="orderAndMenuButton" href="https://eddiespizza.adorapos.net/?id=89XSW">
+            <h1 class="orderAndMenuText">Start Your Order</h1>
+        </a>
+    </div>
+    <!-- Start Order Button -->
+
+    <!-- Deal Ads -->
+    <div id="dealAds">
+        <div class="dealsContainer container">
+            <div class="row">
+                <div id="specialtyPizzaCol" class="col-12">
+                    <h1 id="pizzaTitleText">Specialty Pizzas</h1>
+                    <a class="dealButton" href="https://eddiespizza.adorapos.net/?id=89XSW">
+                        <h1 id="pizzaButtonText">View Specialty Pizzas</h1>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- >=LG -->
+        <div class="dealsContainer container d-none d-lg-block">
+            <div class="row">
+                <div id="comboDealsColLg" class="col-6">
+                    <h1 id="mealDealTitleTextLg">Meal Deals</h1>
+                    <a class="dealButton" href="https://eddiespizza.adorapos.net/?id=89XSW">
+                        <h1 id="mealDealButtonTextLg">View Meal Deals</h1>
+                    </a>
+                </div>
+                <div id="otherDealColLg" class="col-6">
+                    <h1 id="mealDealTitleTextLg">Something For Everyone</h1>
+                    <a class="dealButton" href="https://eddiespizza.adorapos.net/?id=89XSW">
+                        <h1 id="mealDealButtonTextLg">View Other Options</h1>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- >=LG -->
+        <!-- <=MD -->
+        <div class="dealsContainer container d-lg-none">
+            <div class="row">
+                <div id="comboDealsColSm" class="col-12">
+                    <h1 id="mealDealTitleTextSm">Meal Deals</h1>
+                    <a class="dealButton" href="https://eddiespizza.adorapos.net/?id=89XSW">
+                        <h1 id="mealDealButtonTextSm">View Meal Deals</h1>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="dealsContainer container d-lg-none">
+            <div class="row">
+                <div id="otherDealColSm" class="col-12">
+                    <h1 id="mealDealTitleTextSm">Something For Everyone</h1>
+                    <a class="dealButton" href="https://eddiespizza.adorapos.net/?id=89XSW">
+                        <h1 id="mealDealButtonTextSm" class="mealDealOtherOptionSm">View Other Options</h1>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- <=MD -->
+    </div>
+    <!-- Deal Ads -->
+
+    <!-- Full Menu Button -->
+    <div class="orderAndMenuDiv">
+        <a class="orderAndMenuButton" href="/Pages/menu.html">
+            <h1 class="orderAndMenuText">View Full Menu</h1>
+        </a>
+    </div>
+    <!-- Full Menu Button -->
+
+    <!-- About Us -->
+    <div id="aboutUs" class="d-none d-lg-block">
+        <div id="aboutUsContainer" class="container-fluid">
+            <div class="row">
+                <div id="aboutUsTitleCol" class="col-12">
+                    <h1 id="aboutUsTitleText">About Us:</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div id="aboutUsImageCol" class="col-6">
+                    <img id="aboutUsImage" src="./Assets/EddiesAboutUs.jpg" alt="Eddies Location">
+                </div>
+                <div class="col-6">
+                    <h1 id="aboutUsText">We've been serving the Stockton area for over 35 years with delicious pizza,
+                        friendly family
+                        atmosphere, and all at an honest value. Enjoy a delicious meal from Eddie's Pizza today!</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About Us -->
+
+    <!-- Call Us For -->
+    <h1 id="callUsHeader">Call Us For:</h1>
+
+    <!-- >=LG -->
+    <div id="callUsForLg" class="row d-none d-lg-block">
+        <div id="callUsCardLeftColLg" class="col-4">
+            <div class="callUsCardLg">
+                <h1 class="callUsCardTitleLg">Office Parties</h1>
+                <p class="callUsCardTextLg">Pizza is the perfect meal and hassle-free. Order a variety of pizzas and
+                    please everyone from hearty
+                    eaters to vegetarians. Pizza is easy to eat, fast, convenient, popular, inexpensive and conveniently
+                    delivered to your workplace.</p>
+            </div>
+        </div>
+        <div id="callUsCardCenterColLg" class="col-4">
+            <div class="callUsCardLg">
+                <h1 class="callUsCardTitleLg">Company Meetings</h1>
+                <p class="callUsCardTextLg">For over 35 years, Eddies Pizza has prepared the most delicious pizza in town.
+                    Eddies Pizza has
+                    provided delicious, hot meals for businesses or organizations for their meetings or special events.
+                    We turn a business meal into a perk for all to enjoy.</p>
+            </div>
+        </div>
+        <div id="callUsCardRightColLg" class="col-4">
+            <div class="callUsCardLg">
+                <h1 class="callUsCardTitleLg">Business Luncheons</h1>
+                <ul class="callUsCardTextLg">
+                    <li>Wide assortment of pizzas</li>
+                    <li>24″ Big Ed Pizza</li>
+                    <li>Lasagna or Spaghetti with meat sauce</li>
+                    <li>Salads</li>
+                    <li>Bread Twists</li>
+                    <li>Seasoned Tasty Wedge Potatoes</li>
+                    <li>Sodas</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- >=LG -->
+
+    <!-- <=MD -->
+    <div id="callUsCardSm" class="row">
+        <div id="callUsCardColSm" class="col-12">
+            <h1 class="callUsCardTitleSm">Office Parties</h1>
+            <p class="callUsCardTextSm">Pizza is the perfect meal and hassle-free. Order a variety of pizzas and
+                please everyone from hearty
+                eaters to vegetarians. Pizza is easy to eat, fast, convenient, popular, inexpensive and conveniently
+                delivered to your workplace.</p>
+            <h1 class="callUsCardTitleSm">Company Meetings</h1>
+            <p class="callUsCardTextSm">For over 35 years, Eddies Pizza has prepared the most delicious pizza in town.
+                Eddies Pizza has
+                provided delicious, hot meals for businesses or organizations for their meetings or special events.
+                We turn a business meal into a perk for all to enjoy.</p>
+                <h1 class="callUsCardTitleSm">Business Luncheons</h1>
+            <ul class="callUsCardTextSm callUsCardListSm">
+                <li>Wide assortment of pizzas</li>
+                <li>24″ Big Ed Pizza</li>
+                <li>Lasagna or Spaghetti with meat sauce</li>
+                <li>Salads</li>
+                <li>Bread Twists</li>
+                <li>Seasoned Tasty Wedge Potatoes</li>
+                <li>Sodas</li>
+            </ul>
+        </div>
+    </div>
+    <!-- <=MD -->
+    <!-- Call Us For -->
+
+    <!-- Footer -->
+    <!-- >=LG -->
+    <div id="footerLgTopPadding" class="d-none d-lg-block">
+        <div id="footerLg">
+            <div class="row">
+                <div class="footerLgCol col-4">
+                    <div class="footerLgCont container">
+                        <h1 class="footerLgTitles">Store Hours</h1>
+                        <p class="footerLgText">Sun-Thurs <br>
+                            10:30 a.m. to 9:30 p.m. <br>
+                            Fri - Sat <br>
+                            10:30 a.m. to 10:00 p.m.</p>
+                    </div>
+                </div>
+                <div id="footerLogoCol" class="col-4">
+                    <img id="footerLogo" src="./Assets/EddiesLogo.png" alt="EddiesLogo">
+                </div>
+                <div class="footerLgCol col-4">
+                    <div class="footerLgCont container">
+                        <h1 class="footerLgTitles">Links</h1>
+                        <ul class="footerLgListText">
+                            <li>
+                                <a class="footerLgLink" href="/Pages/menu.html">Menu</a>
+                            </li>
+                            <li>
+                                <a class="footerLgLink" href="/Pages/menu.html">Delivery</a>
+                            </li>
+                            <li>
+                                <a class="footerLgLink" href="/Pages/menu.html">Parties</a>
+                            </li>
+                            <li>
+                                <a class="footerLgLink" href="/Pages/menu.html">Business</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- >=LG -->
+    <!-- <=MD -->
+    <div class="d-lg-none">
+        <div id="footerMd">
+            <h1 class="footerMdTitles">Store Hours:</h1>
+            <p id="footerMdHours">Sun-Thurs 10:30 a.m. to 9:30 p.m. <br>
+                Fri - Sat 10:30 a.m. to 10:00 p.m.</p>
+            <h1 class="footerMdTitles">Locations At:</h1>
+            <p class="footerMdLocations">3201 West Benjamin Holt Drive( Ben Holt & I-5 ) <br>
+                At the Marina Shopping Center <br>
+                Phone: 209.951.4999</p>
+
+            <p class="footerMdLocations">1304 E. Hammer Lane <br>
+                Phone: 209.477.2556</p>
+
+            <p class="footerMdLocations">Eddie's Classic Billiards1304 E. Hammer Lane <br>
+                Phone: 209.477.2255</p>
+
+            <p class="footerMdLocations">1048 E. Waterloo Road <br>
+                Phone: 209.462.1113</p>
+
+            <p class="footerMdLocations">1419 S. El Dorado Street <br>
+                Phone: 209.462.1234</p>
+        </div>
+        <div id="footerMdCopyRight">
+            <p id="footerMdCopyRightTxt">@ 2022 Eddies Pizza.</p>
+        </div>
+    </div>
+    <!-- <=MD -->
+    <!-- Footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+
