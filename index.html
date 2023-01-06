@@ -78,7 +78,6 @@
         <div class="dealsContainer container">
             <div class="row">
                 <div id="specialtyPizzaCol" class="col-12">
-                    <!-- <img id="specialtyPizza" src="./Assets/eddiesPizza.webp" alt="Specialty Pizzas"> -->
                     <h1 id="pizzaTitleText">Specialty Pizzas</h1>
                     <a class="dealButton" href="https://eddiespizza.adorapos.net/?id=89XSW">
                         <h1 id="pizzaButtonText">View Specialty Pizzas</h1>
@@ -86,24 +85,46 @@
                 </div>
             </div>
         </div>
-        <div class="dealsContainer container">
+        <!-- >=LG -->
+        <div class="dealsContainer container d-none d-lg-block">
             <div class="row">
-                <div id="comboDealsCol" class="col-6">
-                    <!-- <img id="comboDeals" src="./Assets/eddiesPizzadeal.jpg" alt="Combo Deals"> -->
-                    <h1 id="mealDealTitleText">Meal Deals</h1>
+                <div id="comboDealsColLg" class="col-6">
+                    <h1 id="mealDealTitleTextLg">Meal Deals</h1>
                     <a class="dealButton" href="https://eddiespizza.adorapos.net/?id=89XSW">
-                        <h1 id="mealDealButtonText">View Meal Deals</h1>
+                        <h1 id="mealDealButtonTextLg">View Meal Deals</h1>
                     </a>
                 </div>
-                <div id="otherDealCol" class="col-6">
-                    <!-- <img id="otherDeals" src="./Assets/eddies.png" alt="Other Deals"> -->
-                    <h1 id="mealDealTitleText">Something For Everyone</h1>
+                <div id="otherDealColLg" class="col-6">
+                    <h1 id="mealDealTitleTextLg">Something For Everyone</h1>
                     <a class="dealButton" href="https://eddiespizza.adorapos.net/?id=89XSW">
-                        <h1 id="mealDealButtonText">View Other Options</h1>
+                        <h1 id="mealDealButtonTextLg">View Other Options</h1>
                     </a>
                 </div>
             </div>
         </div>
+        <!-- >=LG -->
+        <!-- <=MD -->
+        <div class="dealsContainer container d-lg-none">
+            <div class="row">
+                <div id="comboDealsColSm" class="col-12">
+                    <h1 id="mealDealTitleTextSm">Meal Deals</h1>
+                    <a class="dealButton" href="https://eddiespizza.adorapos.net/?id=89XSW">
+                        <h1 id="mealDealButtonTextSm">View Meal Deals</h1>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="dealsContainer container d-lg-none">
+            <div class="row">
+                <div id="otherDealColSm" class="col-12">
+                    <h1 id="mealDealTitleTextSm">Something For Everyone</h1>
+                    <a class="dealButton" href="https://eddiespizza.adorapos.net/?id=89XSW">
+                        <h1 id="mealDealButtonTextSm" class="mealDealOtherOptionSm">View Other Options</h1>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- <=MD -->
     </div>
     <!-- Deal Ads -->
 
@@ -116,7 +137,7 @@
     <!-- Full Menu Button -->
 
     <!-- About Us -->
-    <div id="aboutUs">
+    <div id="aboutUs" class="d-none d-lg-block">
         <div id="aboutUsContainer" class="container-fluid">
             <div class="row">
                 <div id="aboutUsTitleCol" class="col-12">
@@ -140,29 +161,30 @@
     <!-- Call Us For -->
     <h1 id="callUsHeader">Call Us For:</h1>
 
-    <div id="callUsFor" class="row">
-        <div id="callUsCardLeftCol" class="col-4">
-            <div class="callUsCard">
-                <h1 class="callUsCardTitle">Office Parties</h1>
-                <p class="callUsCardText">Pizza is the perfect meal and hassle-free. Order a variety of pizzas and
+    <!-- >=LG -->
+    <div id="callUsForLg" class="row d-none d-lg-block">
+        <div id="callUsCardLeftColLg" class="col-4">
+            <div class="callUsCardLg">
+                <h1 class="callUsCardTitleLg">Office Parties</h1>
+                <p class="callUsCardTextLg">Pizza is the perfect meal and hassle-free. Order a variety of pizzas and
                     please everyone from hearty
                     eaters to vegetarians. Pizza is easy to eat, fast, convenient, popular, inexpensive and conveniently
                     delivered to your workplace.</p>
             </div>
         </div>
-        <div id="callUsCardCenterCol" class="col-4">
-            <div class="callUsCard">
-                <h1 class="callUsCardTitle">Company Meetings</h1>
-                <p class="callUsCardText">For over 35 years, Eddies Pizza has prepared the most delicious pizza in town.
+        <div id="callUsCardCenterColLg" class="col-4">
+            <div class="callUsCardLg">
+                <h1 class="callUsCardTitleLg">Company Meetings</h1>
+                <p class="callUsCardTextLg">For over 35 years, Eddies Pizza has prepared the most delicious pizza in town.
                     Eddies Pizza has
                     provided delicious, hot meals for businesses or organizations for their meetings or special events.
                     We turn a business meal into a perk for all to enjoy.</p>
             </div>
         </div>
-        <div id="callUsCardRightCol" class="col-4">
-            <div class="callUsCard">
-                <h1 class="callUsCardTitle">Business Luncheons</h1>
-                <ul class="callUsCardText">
+        <div id="callUsCardRightColLg" class="col-4">
+            <div class="callUsCardLg">
+                <h1 class="callUsCardTitleLg">Business Luncheons</h1>
+                <ul class="callUsCardTextLg">
                     <li>Wide assortment of pizzas</li>
                     <li>24″ Big Ed Pizza</li>
                     <li>Lasagna or Spaghetti with meat sauce</li>
@@ -174,6 +196,34 @@
             </div>
         </div>
     </div>
+    <!-- >=LG -->
+
+    <!-- <=MD -->
+    <div id="callUsCardSm" class="row">
+        <div id="callUsCardColSm" class="col-12">
+            <h1 class="callUsCardTitleSm">Office Parties</h1>
+            <p class="callUsCardTextSm">Pizza is the perfect meal and hassle-free. Order a variety of pizzas and
+                please everyone from hearty
+                eaters to vegetarians. Pizza is easy to eat, fast, convenient, popular, inexpensive and conveniently
+                delivered to your workplace.</p>
+            <h1 class="callUsCardTitleSm">Company Meetings</h1>
+            <p class="callUsCardTextSm">For over 35 years, Eddies Pizza has prepared the most delicious pizza in town.
+                Eddies Pizza has
+                provided delicious, hot meals for businesses or organizations for their meetings or special events.
+                We turn a business meal into a perk for all to enjoy.</p>
+                <h1 class="callUsCardTitleSm">Business Luncheons</h1>
+            <ul class="callUsCardTextSm callUsCardListSm">
+                <li>Wide assortment of pizzas</li>
+                <li>24″ Big Ed Pizza</li>
+                <li>Lasagna or Spaghetti with meat sauce</li>
+                <li>Salads</li>
+                <li>Bread Twists</li>
+                <li>Seasoned Tasty Wedge Potatoes</li>
+                <li>Sodas</li>
+            </ul>
+        </div>
+    </div>
+    <!-- <=MD -->
     <!-- Call Us For -->
 
     <!-- Footer -->
