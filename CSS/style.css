@@ -1,3 +1,206 @@
+
+/* .navbar {
+
+    background-color: green;
+} */
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+
+body {
+
+  background-color: rgba(242, 216, 142, 1);
+
+}
+.column {
+    float: left;
+    width: 25%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .newPosition {
+
+
+    justify-content: space-around;
+    align-items: center;
+
+   
+   padding-left: 15%;
+
+    
+  }
+
+  /* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  
+  
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .headerLogo {
+    width: 25rem;
+    position: absolute;
+    left: 2rem;
+    top: -0.75rem;
+}
+
+
+
+/* Start Order/View Full Menu Buttons */
+#orderAndMenuDiv {
+  padding-bottom: 3rem;
+}
+
+#orderAndMenuButton {
+  color: white;
+  text-decoration: none;
+  background-color: rgba(0, 80, 32, 1);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  margin-left: 35%;
+  margin-right: 35%;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Rectangle 4 */
+.newOpacity
+{
+
+position: absolute;
+width: 190px;
+height: 41px;
+left: 340px;
+top: 510px;
+
+background: rgba(46, 99, 67, 0.7);
+border-radius: 29px;
+font-size: 7pt;
+
+}
+
+.newOpacity2
+{
+
+position: absolute;
+width: 190px;
+height: 41px;
+left: 830px;
+top: 510px;
+font-size: 7pt;
+
+
+
+background: rgba(46, 99, 67, 0.7);
+border-radius: 29px;
+
+}
+
+.newOpacity3
+{
+
+  position: absolute;
+  width: 190px;
+  height: 41px;
+  left: 342px;
+  top: 800px;
+  font-size: 7pt;
+  
+  
+  
+  background: rgba(46, 99, 67, 0.7);
+  border-radius: 29px;
+}
+
+.newOpacity4
+{
+
+  position: absolute;
+  width: 190px;
+  height: 41px;
+  left: 830px;
+  top: 800px;
+  font-size: 7pt;
+  
+  
+  
+  background: rgba(46, 99, 67, 0.7);
+  border-radius: 29px;
+
+}
+
+/*   Footer */ 
+
+/* Footer */
+#footerTopPadding {
+  background-color: rgba(178, 61, 56, 1);
+  padding-top: 2rem;
+}
+
+#footer {
+  background-color: rgba(0, 80, 32, 1);
+  padding-bottom: 3rem;
+}
+
+.footerCol {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+.footerTitles {
+  background-color: rgba(178, 61, 56, 1);
+  color: white;
+  font-size: 1.7rem;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.footerCont {
+  text-align: center;
+}
+
+.footerText {
+  padding-top: 0.8rem;
+  color: white;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.footerListText {
+  margin-left: 37%;
+  text-align: start;
+  padding-top: 0.8rem;
+  color: white;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.footerLink {
+  color: white;
+}
 /* @font-face {
     src: url("../Fonts/Inter-VariableFont_slnt\,wght.ttf");
     font-family: 'Inter', sans-serif;
@@ -400,6 +603,18 @@ a:active { text-decoration: none; } */
 /* <=MD */
 /* Call Us For */
 
+
+
+
+.contactsTxt {
+
+  position: relative;
+  left: 100px;
+}
+.headerMe {
+  position: relative;
+  text-align: center;
+=======
 /* Footer */
 /* >=LG */
 #footerLgTopPadding {
@@ -458,6 +673,7 @@ a:active { text-decoration: none; } */
 .footerLgLink:active { text-decoration: none; }
 
 #footerLogoCol {
+
     display: flex;
     justify-content: center;
 }
@@ -620,6 +836,30 @@ a:active { text-decoration: none; } */
         padding-top: 0.8rem;
         padding-bottom: 0.8rem;
     }
+
+    .contactsTxt {
+
+        position: relative;
+        left: 100px;
+      }
+
+
+    .headerMe 
+    {
+      position: relative;
+  text-align: center;
+    display: flex;
+    justify-content: center;
+    }
+
+   #newRspn {
+
+    float: left;
+    width: 25%;
+    padding: 5px;
+
+
+   }
     /* Deal Ads */
 
     /* Call Us For */
@@ -629,6 +869,22 @@ a:active { text-decoration: none; } */
     /* Call Us For */
 }
 
+
+@media screen and (max-width: 390px) {
+
+#newRspn
+
+{
+    float: left;
+    width: 25%;
+    padding: 5px;
+
+}
+
+}
+
+
+=======
 @media screen and (max-width: 426px) {
     /* Order and Deals */
     .orderAndMenuButton {
