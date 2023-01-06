@@ -614,10 +614,12 @@ a:active { text-decoration: none; } */
 .headerMe {
   position: relative;
   text-align: center;
-=======
-/* Footer */
-/* >=LG */
+}
+
+
+
 #footerLgTopPadding {
+
     background-color: rgba(178, 61, 56, 1);
     padding-top: 2rem;
 }
@@ -884,7 +886,7 @@ a:active { text-decoration: none; } */
 }
 
 
-=======
+
 @media screen and (max-width: 426px) {
     /* Order and Deals */
     .orderAndMenuButton {
